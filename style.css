@@ -1,0 +1,21 @@
+.flex-wrap{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.flex-card{
+  width: 200px;
+  height: 200px;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span{
+  color: white;
+}
+.container{
+  width: 680px;
+  height: 240px;
+  background-color: #666;
+}
