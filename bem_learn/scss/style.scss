@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+h1,ul,li,p{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #333;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.header{
+  background: #333;
+  box-shadow: 0px 1px 1px #333 ;
+  &__wrapper{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+  &__logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+  }
+}
+.menu{
+  display: flex;
+  &__item{
+    margin-left: 20px;
+  }
+  &__link{
+    color: #fff;
+    padding:5px;
+    &:hover{
+      color: #ccc;
+    }
+  }
+}
+.hero{
+  height: 20rem;
+  background-color: #666;
+  text-align: center;
+  width: 100%;
+  display: table;
+  box-shadow: 0px 1px 1px #999 ;
+
+  
+  &__body{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  &__slogan{
+    font-size: 30px;
+    color: #fff;
+  }
+  &__btn{
+    margin-top: 30px;
+  }
+}
+
+.container{
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 50px 30px;
+  border: 2px solid #555;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #888 ;
+  &__title{
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 23px;
+    padding-bottom: 20px;
+  }
+  &__body{
+    box-sizing: border-box;
+    text-align: left;
+  }
+  &__btn {
+    text-align: center;
+    margin: 30px 0 0;
+    box-sizing: border-box;
+    .btn__link:hover{
+      background-color: #fff;
+      border: 1px solid #333;
+      color: #333;
+    }
+  }
+  
+}
+.btn{
+  transition: all .5s ease;
+  &__link{
+    box-sizing: border-box;
+    background: #333;
+    border-radius: 36px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: all .5s ease;
+    border: 1px solid #333;
+    &:hover{
+      background-color: #fff;
+      border: 1px solid #333;
+      color: #333;
+    }
+  }
+  &:hover{
+    transform: scale(1.2,1.2);
+  }
+}
+.footer{
+  height: 20px;
+  background-color: #333;
+  text-align: center;
+  &__copy-rights{
+    color: #fff;
+    line-height: 20px;
+  }
+}
